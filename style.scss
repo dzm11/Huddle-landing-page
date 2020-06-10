@@ -131,3 +131,16 @@ header {
 		}
 	}
 }
+@media (min-width: 1920px) {
+	.container {
+		max-width: 1800px;
+		margin: 0 auto;
+		height: 100%;
+	}
+	.stage-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+	}
+}
